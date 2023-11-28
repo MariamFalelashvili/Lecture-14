@@ -210,4 +210,77 @@ header .container nav ul li a {
   letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
+}
+
+.s-2 {
+  max-width: 1600px;
+  width: 100%;
+  margin-top: 84px;
+}
+.s-2 .cardbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.s-2 .cardbox .card0 {
+  max-width: 255px;
+  width: 100%;
+}
+.s-2 .cardbox .card0 h2 {
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(99, 96, 96, 0.9764705882);
+}
+.s-2 .cardbox .card0 h3 {
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 9px;
+  margin-bottom: 37px;
+}
+.s-2 .cardbox .card0 p {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(99, 96, 96, 0.9764705882);
+}
+.s-2 .cardbox .card-wrapper {
+  max-width: 924px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.s-2 .cardbox .card-wrapper .card1 {
+  width: 286px;
+}
+.s-2 .cardbox .card-wrapper .card1 h4 {
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #343232;
+  margin-top: 23px;
+  margin-bottom: 9px;
+}
+.s-2 .cardbox .card-wrapper .card1 p {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(99, 96, 96, 0.9764705882);
 }/*# sourceMappingURL=global.css.map */

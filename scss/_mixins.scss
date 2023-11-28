@@ -19,3 +19,27 @@
     letter-spacing: 0em;
     text-align: left;
 }
+@mixin h3{
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@mixin h4{
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@mixin p{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}

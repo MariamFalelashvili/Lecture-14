@@ -48,3 +48,56 @@ header {
         }
     }
 }
+.s-2{
+    max-width: 1600px;
+    width: 100%;
+    margin-top: 84px;
+    .cardbox{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        .card0{
+            max-width: 255px;
+            width: 100%;
+            h2{
+                @include nav;
+                color: $color1;
+            }
+            h3{
+                @include h3;
+                margin-top: 9px;
+                margin-bottom: 37px;
+            }
+            p{
+                font-family: Helvetica;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: $color1;
+            }
+        }
+        .card-wrapper{
+            max-width: 924px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            .card1{
+                width: 286px;
+                h4{
+                    @include h4;
+                    color: $color3;
+                    margin-top: 23px;
+                    margin-bottom: 9px;
+                }
+                p{
+                    @include p;
+                    color: $color1;
+                }
+            }
+        }
+    }
+}
