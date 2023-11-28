@@ -1,8 +1,21 @@
-@mixin titles {
+@mixin nav {
     font-family: Helvetica;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@mixin goflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin title1{
+    font-family: Helvetica;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 91px;
     letter-spacing: 0em;
     text-align: left;
 }

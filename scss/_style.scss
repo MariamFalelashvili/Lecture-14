@@ -15,12 +15,36 @@ header {
         display: flex;
         justify-content: space-between;
         li{
-            @include titles;
+            @include nav;
             a{
-                color: $color;
+                color: $color1;
             }
         }
       }
     }
   }
+}
+.s-1{
+    max-width: 1440%;
+    width: 100%;
+    height: 606px;
+    background-image: url("../images/Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include goflex;
+    margin-top: 18px;
+    .textbox{
+        height: 150px;
+        @include goflex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2{
+            @include title1;
+            color: $color2;
+        }
+        h3{
+            @include nav;
+            color: $color2;
+        }
+    }
 }
