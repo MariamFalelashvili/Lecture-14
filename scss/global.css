@@ -139,4 +139,36 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+header {
+  max-width: 1440px;
+}
+header .container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav {
+  max-width: 600px;
+  width: 100%;
+}
+header .container nav ul {
+  width: 100% px;
+  display: flex;
+  justify-content: space-between;
+}
+header .container nav ul li {
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+header .container nav ul li a {
+  color: rgba(99, 96, 96, 0.9764705882);
 }/*# sourceMappingURL=global.css.map */

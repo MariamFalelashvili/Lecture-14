@@ -1,0 +1,26 @@
+header {
+  max-width: 1440px;
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav {
+      max-width: 600px;
+      width: 100%;
+      ul {
+        width: 100%px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            @include titles;
+            a{
+                color: $color;
+            }
+        }
+      }
+    }
+  }
+}
